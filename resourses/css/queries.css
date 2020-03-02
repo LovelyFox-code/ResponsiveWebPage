@@ -1,0 +1,38 @@
+
+
+/*BIG TABLETS to 1200*/
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row { padding: 0 2%;}
+     
+
+
+}
+
+/*SMALL TABLETS to BIG TABLETS: 768 to 1023*/
+
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0;}
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+}
+
+/*SMALL PHONES to SMALL TABLETS: 481 to 767*/
+
+@media only screen and (max-width: 767px) {
+
+}
+
+/*SMALL PHONES from 0 to 480px*/
+
+@media only screen and (max-width: 480px) {
+
+}
