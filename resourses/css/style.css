@@ -15,6 +15,7 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
 }
 
 .clearfix {zoom: 1;}
@@ -219,6 +220,18 @@ header {
     border-bottom: 2px solid  #cf6d17;
 }
 
+/* Mobile navi */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fcfcfc;
+}
+
 /* Sticky navi */
 
 .sticky {
@@ -240,7 +253,7 @@ header {
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 16px 0;
-    color: rgb(253, 236, 236);
+    color:black;
 }
 
 .sticky .logo {
@@ -250,6 +263,15 @@ header {
     display: block;
 }
 
+
+.sticky .main-nav {
+    margin-top: 10px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {padding: 10px 0;}
+.sticky .mobile-nav-icon i { color: black;}
+.sticky .mobile-nav-icon i { margin-top: 10px;}
 
 
 /*---------------------------------------------------*/
@@ -537,4 +559,26 @@ footer p {
     text-align: center;
     font-size: 90%;
     margin-top: 30px;
+}
+
+
+
+/*---------------------------------------------------*/
+/*ANIMATION*/
+/*---------------------------------------------------*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+    animation-duration: 1s;
+}
+.js--wp-4 {
+    animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
 }
