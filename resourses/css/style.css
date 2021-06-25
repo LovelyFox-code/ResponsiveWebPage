@@ -239,7 +239,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color:rgb(250, 235, 235);
+    background-color:rgb(252, 243, 231);
     box-shadow: 0 2px 2px #ccc;
     z-index: 9999;
 }
@@ -476,6 +476,7 @@ cite img {
 
 .plan-box ul li {
     padding: 5px 5px;
+    list-style-type:none;
 }
 
 
