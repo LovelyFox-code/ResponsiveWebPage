@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="resourses/css/queries.css">
     <link rel="stylesheet" type="text/css" href="resourses/css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>HomeMadeFood</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/resourses/favicons/apple-touch-icon.png">
@@ -29,120 +30,125 @@
 
 <body>
     <header>
-        <nav>
-            <div class="row">
-                <img src="./resourses/img/logo-white.png" alt="homemadefood logo" class="logo">
-                <img src="./resourses/img/logo.png" alt="homemadefood logo" class="logo-black">
-                <ul class="main-nav js--main-nav">
-                    <li><a href="#feauters">Food delivery</a></li>
-                    <li><a href="#works">How it's work</a></li>
-                    <li><a href="#cities">Our location</a></li>
-                    <li><a href="#plans">Sign up</a></li>
-                </ul>
-                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+        <div>
+            <nav class="container">
+                <div class="row">
+                    <!-- <img src="./resourses/img/meal (1).png" alt="homemadefood logo" class="logo">
+                    <img src="./resourses/img/meal.png" alt="homemadefood logo" class="logo-black"> -->
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#feauters">Food delivery</a></li>
+                        <li><a href="#works">How it's work</a></li>
+                        <li><a href="#cities">Our location</a></li>
+                        <li><a href="#plans">Sign up</a></li>
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+            </nav>
+            <div class="hero-text-box">
+                <h1> Home made food. <br> We are added some love in it...</h1><br>
+                <a class="btn btn-full js--scroll-to-plans" href="#plans">Yes, i'm hungry</a>
+                <a class="btn btn-ghost js--scroll-to-start" href="#feauters">Tell me more</a>
             </div>
-        </nav>
-        <div class="hero-text-box">
-            <h1> Home made food. <br> We are added some love in it...</h1><br>
-            <a class="btn btn-full js--scroll-to-plans" href="#">Yes, i'm hungry</a>
-            <a class="btn btn-ghost js--scroll-to-start" href="#">Tell me more</a>
         </div>
     </header>
 
 
     <section class="section-features js--section-features" id="feauters">
-        <div class="row">
-            <h2>Food fast &mdash; not fast food</h2>
-            <p class="long-copy">Hi,we are HomeMadeFood. We know you are always busy. No time for cooking. So let us
-                take care of that. We will make you feel like at home</p>
-
-        </div>
-        <div class="row js--wp-1">
-            <div class="col span-1-of-4 box">
-                <h3>up to 365 days/year</h3>
-                <p>Never cook again, if you don't like it! We really mean that. Our subscription plans include up to 365
-                    days/year coverage. You can also choose to order more flexably if that's your style.
-                </p>
+        <div class="container">
+            <div class="row">
+                <h2>Food fast &mdash; not fast food</h2>
+                <p class="long-copy">Hi,we are HomeMadeFood. We know you are always busy. No time for cooking. So let us
+                    take care of that. We will make you feel like at home</p>
+    
             </div>
-            <div class="col span-1-of-4 box">
-                <h3>care about your diet</h3>
-                <p>Healthy,fresh meal. Don't forget one of the our option: we can calculate calories, proteins, fats and
-                    carbohydrates on your needs
-                </p>
-            </div>
-            <div class="col span-1-of-4 box">
-                <h3>order anything</h3>
-                <p>We don't limit your cretivity, which means you can order whatever you feel like. You can also choose
-                    from our menu containing over 100 delicious meals. It's up to you.
-                </p>
-            </div>
-            <div class="col span-1-of-4 box">
-
-                <h3>ready in 20 minutes</h3>
-                <p>Never cook again, if you don't like it! We really mean that. Our subscription plans include up to 365
-                    days/year coverage. You can also choose to order more flexably if that's your style.
-                </p>
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <h3>up to 365 days/year</h3>
+                    <p>Never cook again, if you don't like it! We really mean that. Our subscription plans include up to 365
+                        days/year coverage. You can also choose to order more flexably if that's your style.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <h3>care about your diet</h3>
+                    <p>Healthy,fresh meal. Don't forget one of the our option: we can calculate calories, proteins, fats and
+                        carbohydrates on your needs
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <h3>order anything</h3>
+                    <p>We don't limit your cretivity, which means you can order whatever you feel like. You can also choose
+                        from our menu containing over 100 delicious meals. It's up to you.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+    
+                    <h3>ready in 20 minutes</h3>
+                    <p>Never cook again, if you don't like it! We really mean that. Our subscription plans include up to 365
+                        days/year coverage. You can also choose to order more flexably if that's your style.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="section-meals">
-        <ul class="meals-showcase clearfix">
-            <li>
-                <figure class="meal-photo">
-                    <img src="./resourses/img/1.jpg " alt="meal">
-                </figure>
-            </li>
-            <li>
-                <figure class="meal-photo">
-                    <img src="./resourses/img/2.jpg" alt="food">
-                </figure>
-            </li>
-            <li>
-                <figure class="meal-photo">
-                    <img src="./resourses/img/3.jpg" alt="veggy">
-                </figure>
-            </li>
-            <li>
-                <figure class="meal-photo">
-                    <img src="./resourses/img/4.jpg" alt="fruit">
-                </figure>
-            </li>
-        </ul>
-        <ul class="meals-showcase clearfix">
-            <li>
-                <figure class="meal-photo">
-                    <img src="./resourses/img/5.jpg " alt="meat">
-                </figure>
-            </li>
-            <li>
-                <figure class="meal-photo">
-                    <img src="./resourses/img/6.jpg" alt="cucumber">
-                </figure>
-            </li>
-            <li>
-                <figure class="meal-photo">
-                    <img src="./resourses/img/7.jpg" alt="maels">
-                </figure>
-            </li>
-            <li>
-                <figure class="meal-photo">
-                    <img src="./resourses/img/8.jpg" alt="vegitarian">
-                </figure>
-            </li>
-        </ul>
+        <div class="container">
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="./resourses/img/1.jpg " alt="meal">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="./resourses/img/2.jpg" alt="food">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="./resourses/img/3.jpg" alt="veggy">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="./resourses/img/4.jpg" alt="fruit">
+                    </figure>
+                </li>
+            </ul>
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="./resourses/img/5.jpg " alt="meat">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="./resourses/img/6.jpg" alt="cucumber">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="./resourses/img/7.jpg" alt="maels">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="./resourses/img/8.jpg" alt="vegitarian">
+                    </figure>
+                </li>
+            </ul>
+        </div>
     </section>
 
 
     <section class="section-steps" id="works">
+       <div class="container">
         <div class="row">
             <h2> How it works &mdash; Simple as 1, 2, 3</h2>
         </div>
         <div class="row">
-            <div class="col span-1-of-2 steps-box">
-                <img src="./resourses/img/app-iPhone.png" alt="iphone" class="app-screen js--wp-2">
-            </div>
-            <div class="col span-1-of-2 steps-box">
+            
+            <div class="steps-box">
                 <div class="works-step">
                     <div>1</div>
                     <p>Choose the subscription plan the best fits uour needs and sight up today</p>
@@ -156,174 +162,183 @@
                     <p>Enjoy your meal after less than 20 minutes. See you the ne[t time</p>
                 </div>
 
-                <a href="#" class="btn-app"><img src="./resourses/img/download-app-android.png" alt="android"></a>
-                <a href="#" class="btn-app"><img src="./resourses/img/download-app-android.png" alt="android"></a>
+                <div class="btn-app">
+                    <a href="#" ><img src="./resourses/img/001-playstore.png" alt="android"></a>
+                    <a href="#" ><img src="./resourses/img/002-app-store.png" alt="apple"></a>
+                </div>
             </div>
         </div>
+       </div>
     </section>
 
     <section class="section-cities" id="cities">
-        <div class="row">
-            <h2> We are currently in these cities</h2>
-        </div>
-        <div class="row js--wp-3">
-            <div class="col span-1-of-4 box ">
-                <img src="./resourses/img/amsterdam.jpeg" alt="lisbon">
-                <h3>Amsterdam</h3>
-                <div class="city-feature">
-                    1600+ hqppy eaters
-                </div>
-                <div class="city-feature">
-                    60+ top chefs
-                </div>
-                <div class="city-feature">
-                    <a href="#"> @HomeMadeFood</a>
-                </div>
-
+        <div class="container">
+            <div class="row">
+                <h2> We are currently in these cities</h2>
             </div>
-
-            <div class="col span-1-of-4 box ">
-                <img src="./resourses/img/utrecht.jpeg" alt="lisbon" >
-                <h3>Utrecht</h3>
-                <div class="city-feature">
-                    100+ hqppy eaters
+            <div class="row js--wp-3">
+                <div class="col span-1-of-4 box ">
+                    <img src="./resourses/img/amsterdam.jpeg" alt="lisbon">
+                    <h3>Amsterdam</h3>
+                    <div class="city-feature">
+                        1600+ hqppy eaters
+                    </div>
+                    <div class="city-feature">
+                        60+ top chefs
+                    </div>
+                    <div class="city-feature">
+                        <a href="#"> @HomeMadeFood</a>
+                    </div>
+    
                 </div>
-                <div class="city-feature">
-                    600+ top chefs
+    
+                <div class="col span-1-of-4 box ">
+                    <img src="./resourses/img/utrecht.jpeg" alt="lisbon">
+                    <h3>Utrecht</h3>
+                    <div class="city-feature">
+                        100+ hqppy eaters
+                    </div>
+                    <div class="city-feature">
+                        600+ top chefs
+                    </div>
+                    <div class="city-feature">
+                        <a href="#"> @HomeMadeFood</a>
+                    </div>
+    
                 </div>
-                <div class="city-feature">
-                    <a href="#"> @HomeMadeFood</a>
+    
+                <div class="col span-1-of-4 box ">
+                    <img src="./resourses/img/amstelveen.jpeg" alt="lisbon">
+                    <h3>Amstelveen</h3>
+                    <div class="city-feature">
+                        160+ hqppy eaters
+                    </div>
+                    <div class="city-feature">
+                        3 top chefs
+                    </div>
+                    <div class="city-feature">
+                        <a href="#"> @HomeMadeFood</a>
+                    </div>
                 </div>
-
-            </div>
-
-            <div class="col span-1-of-4 box ">
-                <img src="./resourses/img/amstelveen.jpeg" alt="lisbon">
-                <h3>Amstelveen</h3>
-                <div class="city-feature">
-                    160+ hqppy eaters
+    
+                <div class="col span-1-of-4 box ">
+                    <img src="./resourses/img/almere.jpeg" alt="lisbon">
+                    <h3>Almere</h3>
+                    <div class="city-feature">
+                        1600+ hqppy eaters
+                    </div>
+                    <div class="city-feature">
+                        60+ top chefs
+                    </div>
+                    <div class="city-feature">
+                        <a href="#"> @HomeMadeFood</a>
+                    </div>
+    
                 </div>
-                <div class="city-feature">
-                    3 top chefs
-                </div>
-                <div class="city-feature">
-                    <a href="#"> @HomeMadeFood</a>
-                </div>
-            </div>
-
-            <div class="col span-1-of-4 box ">
-                <img src="./resourses/img/almere.jpeg" alt="lisbon">
-                <h3>Almere</h3>
-                <div class="city-feature">
-                    1600+ hqppy eaters
-                </div>
-                <div class="city-feature">
-                    60+ top chefs
-                </div>
-                <div class="city-feature">
-                    <a href="#"> @HomeMadeFood</a>
-                </div>
-
             </div>
         </div>
 
     </section>
 
     <section class="section-testimonials">
-        <div class="row">
-            <h2>Our custumer can't live without us</h2>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-3">
-                <blockquote>
-                    HomeMadeFood is just awersome! I just launched a startup which leaves me with no time for cooking,
-                    so HomeMadeFood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-                    <cite><img src="./resourses/img/customer-1.jpg" alt="avatar">( Albert Dusihn)</cite>
-                </blockquote>
+        <div class="container">
+            <div class="row">
+                <h2>Our custumer can't live without us</h2>
             </div>
-
-            <div class="col span-1-of-3">
-                <blockquote>
-                    HomeMadeFood is just awersome! I just launched a startup which leaves me with no time for cooking,
-                    so HomeMadeFood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-                    <cite><img src="./resourses/img/customer-2.jpg" alt="avatar">( Albert Dusihn)</cite>
-                </blockquote>
-            </div>
-
-            <div class="col span-1-of-3">
-                <blockquote>
-                    HomeMadeFood is just awersome! I just launched a startup which leaves me with no time for cooking,
-                    so HomeMadeFood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-                    <cite><img src="./resourses/img/customer-3.jpg" alt="avatar">( Albert Dusihn)</cite>
-                </blockquote>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        HomeMadeFood is just awersome! I just launched a startup which leaves me with no time for cooking,
+                        so HomeMadeFood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                        <cite><img src="./resourses/img/customer-1.jpg" alt="avatar">( Albert Dusihn)</cite>
+                    </blockquote>
+                </div>
+    
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        HomeMadeFood is just awersome! I just launched a startup which leaves me with no time for cooking,
+                        so HomeMadeFood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                        <cite><img src="./resourses/img/customer-2.jpg" alt="avatar">( Albert Dusihn)</cite>
+                    </blockquote>
+                </div>
+    
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        HomeMadeFood is just awersome! I just launched a startup which leaves me with no time for cooking,
+                        so HomeMadeFood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                        <cite><img src="./resourses/img/customer-3.jpg" alt="avatar">( Albert Dusihn)</cite>
+                    </blockquote>
+                </div>
             </div>
         </div>
 
     </section>
 
     <section class="section-plans js--section-plans" id="plans">
-        <div class="row">
-            <h2>Start eating healthy today!</h2>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-3">
-                <div class="plan-box js--wp-4">
-                    <div>
-                        <h3>Premium</h3>
-                        <p class="plan-price">$399/month</p>
-                        <p class="plan-price-meal">That's only 13.30 per meal</p>
-                    </div>
-                    <div>
-                        <ul>
-                            <li> I meal everyday</li>
-                            <li>Order 24/7</li>
-                            <li>Access to newest creations</li>
-                            <li>Free delivery</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="#" class="btn btn-ghost">Sign up now</a>
+        <div class="container">
+            <div class="row">
+                <h2>Start eating healthy today!</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="plan-box js--wp-4">
+                        <div>
+                            <h3>Premium</h3>
+                            <p class="plan-price">$399/month</p>
+                            <p class="plan-price-meal">That's only 13.30 per meal</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li> I meal everyday</li>
+                                <li>Order 24/7</li>
+                                <li>Access to newest creations</li>
+                                <li>Free delivery</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#form" class="btn btn-ghost">Sign up now</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col span-1-of-3">
-                <div class="plan-box">
-                    <div>
-                        <h3>Pr0</h3>
-                        <p class="plan-price">$149/month</p>
-                        <p class="plan-price-meal">That's only 14.90 per meal</p>
-                    </div>
-                    <div>
-                        <ul>
-                            <li> One meal 10 days/month</li>
-                            <li>Order 24/7</li>
-                            <li>Access to newest creations</li>
-                            <li>Free delivery</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="#" class="btn btn-ghost">Sign up now</a>
+    
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Pr0</h3>
+                            <p class="plan-price">$149/month</p>
+                            <p class="plan-price-meal">That's only 14.90 per meal</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li> One meal 10 days/month</li>
+                                <li>Order 24/7</li>
+                                <li>Access to newest creations</li>
+                                <li>Free delivery</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#form" class="btn btn-ghost">Sign up now</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col span-1-of-3">
-                <div class="plan-box">
-                    <div>
-                        <h3>Starter</h3>
-                        <p class="plan-price">19$/meal</p>
-                        <p class="plan-price-meal">&nbsp;</p>
-                    </div>
-                    <div>
-                        <ul>
-                            <li> 1 meal</li>
-                            <li>From 8am to 8pm</li>
-                            <li>No access to newest creations </li>
-                            <li>Free delivery</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <a href="#" class="btn btn-ghost">Sign up now</a>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Starter</h3>
+                            <p class="plan-price">19$/meal</p>
+                            <p class="plan-price-meal">&nbsp;</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li> 1 meal</li>
+                                <li>From 8am to 8pm</li>
+                                <li>No access to newest creations </li>
+                                <li>Free delivery</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#form" class="btn btn-ghost">Sign up now</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -331,6 +346,7 @@
     </section>
 
     <section class="section-form" id="form">
+       <div class="container">
         <div class="row">
             <h2>We're happy to hear from you</h2>
         </div>
@@ -341,62 +357,63 @@
             <div class="form-messages error">
                 Oops! Something went wrong! Please, try it again.
             </div> -->
-            <form method="post" action="mailer-new.php" class="contact-form">
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="name">Name</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="text" name="name" id="name" placeholder="Your name">
-                    </div>
+        <form method="post" action="mailer-new.php" class="contact-form">
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="name">Name</label>
                 </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="email">Email</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="email" name="email" id="email" placeholder="Your email" required>
-                    </div>
+                <div class="col span-2-of-3">
+                    <input type="text" name="name" id="name" placeholder="Your name">
                 </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label for="find-us">How did you find us?</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <select name="find-us" id="find-us">
-                            <option value="friends" selected>Friends</option>
-                            <option value="search">Search engine</option>
-                            <option value="ad">Advertisement</option>
-                            <option value="other">In some other way</option>
-                        </select>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="email">Email</label>
                 </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>Newsletter</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="checkbox" name="news" id="news" checked>Yes,plase
-                    </div>
+                <div class="col span-2-of-3">
+                    <input type="email" name="email" id="email" placeholder="Your email" required>
                 </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>Drop us a line</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <textarea name="message" placeholder="Your message"></textarea>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="find-us">How did you find us?</label>
                 </div>
-                <div class="row">
-                    <div class="col span-1-of-3">
-                        <label>&nbsp;</label>
-                    </div>
-                    <div class="col span-2-of-3">
-                        <input type="submit" value="Send it!">
-                    </div>
+                <div class="col span-2-of-3">
+                    <select name="find-us" id="find-us">
+                        <option value="friends" selected>Friends</option>
+                        <option value="search">Search engine</option>
+                        <option value="ad">Advertisement</option>
+                        <option value="other">In some other way</option>
+                    </select>
                 </div>
-            </form>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>Newsletter</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="checkbox" name="news" id="news" checked>Yes,plase
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>Drop us a line</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <textarea name="message" placeholder="Your message"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="submit" value="Send it!">
+                </div>
+            </div>
+        </form>
         </div>
+       </div>
     </section>
 
     <footer>
@@ -421,11 +438,11 @@
         </div> -->
         <div class="row">
             <p>
-                Copirght &copy; 2020 by HomeMadeFood. All right reserved. 
+                Copirght &copy; 2022 by HomeMadeFood. All right reserved.
             </p>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
